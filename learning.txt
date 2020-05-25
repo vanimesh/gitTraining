@@ -27,7 +27,7 @@ git merge <branchName>
 
 
 Working with git hub below commads are useful
-git pull,gitpush,gitclone(localRepo),gitfork(RemoteRepo),gitIgnore(used to ignore the files when pushing)
+git pull,gitpush,gitclone(localRepo),gitfork(RemoteRepo),gitIgnore(used to ignore the files when pushing),gitstash,gitrebase,gitsquash
 
 VisualizeGit=https://git-school.github.io/visualizing-git/
 UI for github:-https://desktop.github.com/
