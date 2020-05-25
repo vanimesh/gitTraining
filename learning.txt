@@ -1,0 +1,33 @@
+git init(Initializes the git directory/staging area)
+git status(Shows the status of git folder i.e. wether files are commited or not etc)
+git add <file/folderName> (Adds the file/folder to the git created on first step/staging area)
+git commit -m "THis is message" (Commits the file/folder changes into git)
+git log(shows the log for the existing git)
+  		commit 0f257ddced38ce54f6b1aabf46bb595d67b0798b----------Hash of the git
+		Author: root <root@umse02lx0975.uat.sdt.ericsson.se>-----Author who commited
+		Date:   Sun May 24 13:56:45 2020 +0400-------------------Date of commit
+		
+			this is my first file--------------------------------Message while commiting
+			
+git revert(used to revert the commit in case of any mistakes..just an other commit but reverts the changes)
+     git revert HEAD (This reverts the head i.e. the latest commit done on git
+	 git revert -n <first seven digits of hash> (This reverts to the stage till we want but not commits)
+git reset(this is used to reset our files to particular point using the hash)
+	 git reset <7digits of hash> --hard(Hard mean, it resets the files and also the commit log, if its not used only log would be resetted not files)
+	 Ex-git reset 9bfc68 --hard
+
+Branching:-Allows diffferent team members to maintain different branches without messing up with the main line)
+git branch(allows us to create a branch)
+    git branch <branchName>
+git checkout(allows us to checkout the branch)
+    git checkout <branchName> 
+	git checkout -b <branchName> (creates and switches to that branch)
+Merge:-Allows us to merge branches to main(Always remember to switch to master branch before merging other branches to master)
+git merge <branchName>
+
+
+Working with git hub below commads are useful
+git pull,git push and git clone
+
+VisualizeGit=https://git-school.github.io/visualizing-git/
+UI for github:-https://desktop.github.com/
