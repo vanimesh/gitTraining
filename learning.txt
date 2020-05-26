@@ -31,3 +31,4 @@ git pull,gitpush,gitclone(localRepo),gitfork(RemoteRepo),gitIgnore(used to ignor
 
 VisualizeGit=https://git-school.github.io/visualizing-git/
 UI for github:-https://desktop.github.com/
+Good to read=https://codeburst.io/so-wtf-is-git-fa7daa0e0271
